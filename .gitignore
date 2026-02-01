@@ -1,0 +1,25 @@
+# Python rác
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+venv/
+.env
+
+# Dữ liệu & Database (Không nên push vì dung lượng lớn/riêng tư)
+vector_db/
+data/raw/
+*.json
+!data/fpt_data.json  # Giữ lại file data mẫu nếu muốn demo
+
+# File test script
+scripts/
+
+# Assets (File âm thanh tạm thời)
+assets/*.wav
+assets/temp_chunk.wav
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
