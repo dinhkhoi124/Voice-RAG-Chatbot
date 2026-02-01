@@ -13,7 +13,10 @@ data/raw/
 !data/fpt_data.json  # Giữ lại file data mẫu nếu muốn demo
 
 # File test script
-scripts/
+scripts/*
+
+!scripts/index_data.py
+!scripts/__init__.py
 
 # Assets (File âm thanh tạm thời)
 assets/*.wav
